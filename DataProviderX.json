@@ -1,0 +1,65 @@
+{
+    "columns": {
+        "amountColumn":"transactionAmount",
+        "currencyColumn":"Currency",
+        "phoneColumn": "senderPhone",
+        "statusColumn": "transactionStatus",
+        "createdAtColumn": "transactionDate",
+        "idColumn": "transactionIdentification"
+    },
+    "StautsCode": {
+        "paid":    1,
+        "pending": 2,
+        "reject":  3
+    },
+    "transactaions":[
+        {
+            "transactionAmount":"200",
+            "Currency":"USD",
+            "senderPhone":"00201234567890",
+            "transactionStatus":1,
+            "transactionDate": "2021-03-29 09:36:11",
+            "transactionIdentification": "d3d29d70-1d25-11e3-8591-034165a3a613"
+        },
+        {
+            "transactionAmount":100,
+            "Currency":"USD",
+            "senderPhone":"00201234567890",
+            "transactionStatus":3,
+            "transactionDate": "2021-04-7 09:36:11",
+            "transactionIdentification": "d3d29d70-1d25-11e3-8591-034165a3a605"
+        },
+        {
+            "transactionAmount":400,
+            "Currency":"EUR",
+            "senderPhone":"00201234567890",
+            "transactionStatus":3,
+            "transactionDate": "2021-04-20 09:36:11",
+            "transactionIdentification": "d3d29d70-1d25-11e3-8591-034165a3a678"
+        },
+        {
+            "transactionAmount":20000,
+            "Currency":"EGP",
+            "senderPhone":"00201234567890",
+            "transactionStatus":2,
+            "transactionDate": "2021-04-25 09:36:11",
+            "transactionIdentification": "d3d29d70-1d25-11e3-8591-034165a3a699"
+        },
+        {
+            "transactionAmount":250,
+            "Currency":"USD",
+            "senderPhone":"00201234567890",
+            "transactionStatus":1,
+            "transactionDate": "2021-05-02 09:36:11",
+            "transactionIdentification": "d3d29d70-1d25-11e3-8591-034165a3a785"
+        },
+        {
+            "transactionAmount":700,
+            "Currency":"USD",
+            "senderPhone":"00201234567890",
+            "transactionStatus":1,
+            "transactionDate": "2021-05-29 09:36:11",
+            "transactionIdentification": "d3d29d70-1d25-11e3-8591-034165a3a799"
+        }
+    ]
+}
